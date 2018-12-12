@@ -8,5 +8,6 @@ import (
 func TestGenerate(t *testing.T) {
 	wallet := NewBitcoinWalllet()
 	address := wallet.GetBitcoinAddress()
-	fmt.Println("address", address)
+	isVal := ValidateAddress(string(address))
+	fmt.Println(isVal, "address", string(address))
 }

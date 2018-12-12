@@ -1,6 +1,7 @@
 package bitcoin
 
 import (
+	"bytes"
 	"crypto/ecdsa"
 	"crypto/elliptic"
 	"crypto/rand"
@@ -15,8 +16,9 @@ type BitcoinWallet struct {
 	PublicKey  []byte
 }
 
+// batch generate address
 func BatchGenerateAddress() {
-	
+
 }
 
 func NewBitcoinWalllet() *BitcoinWallet {
@@ -33,6 +35,15 @@ func (w BitcoinWallet) GetBitcoinAddress() []byte {
 	fullPayload := append(versionPayload, checkSum...)
 	// base58 code
 	return Base58Encode(fullPayload)
+}
+
+func ValidateAddress(address string) bool {
+	pubKeyHash := Base58Decode([]byte(address))
+	actualChecksum := pubKeyHash[len(pubKeyHash)-addressChecksumLen:]
+	version := pubKeyHash[0]
+	pubKeyHash = pubKeyHash[1:len(pubKeyHash) - addressChecksumLen]
+	targetChecksum := checksum(append([]byte{version}, pubKeyHash...))
+	return bytes.Compare(actualChecksum, targetChecksum) == 0
 }
 
 // twice sha256 hash to generate checkSum

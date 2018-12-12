@@ -15,6 +15,7 @@ type BitcoinWallets struct {
 	BitcoinWallets map[string]*BitcoinWallet
 }
 
+
 func NewBitcoinWallets(nodeID string) (*BitcoinWallets, error) {
 	wallets := BitcoinWallets{}
 	wallets.BitcoinWallets = make(map[string]*BitcoinWallet)
@@ -45,6 +46,8 @@ func (ws *BitcoinWallets) LoadFromFile(nodeID string) error{
 func (ws *BitcoinWallets) CreateWallet() string {
 	wallet := NewBitcoinWalllet()
 	address := fmt.Sprintf("%s", wallet.GetBitcoinAddress())
+	ws.BitcoinWallets[address] = wallet
+	fmt.Println("address")
 	return address
 }
 
@@ -76,6 +79,8 @@ func (ws *BitcoinWallets) SaveToFile(nodeID string) {
 		log.Panic(err)
 	}
 }
+
+
 
 
 
