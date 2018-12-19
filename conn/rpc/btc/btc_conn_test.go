@@ -30,7 +30,7 @@ func  TestHttpConn(t *testing.T) {
 	defer client.Shutdown()
 
 	// Get the current block count.
-	count, err := client.GetDifficulty()
+	count, err := client.GetBestBlockHash()
 	fmt.Println(count)
 	if err != nil {
 		log.Fatal(err)

@@ -19,40 +19,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conn/rpc/btc/btc_conn.go">
+        <entry file="file://$PROJECT_DIR$/conn/rpc/btc/btc_conn_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="200">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
-                <element signature="e#12#134#0" expanded="true" />
+                <element signature="e#13#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/db_connect.go">
+        <entry file="file://$PROJECT_DIR$/../github.com/btcsuite/rpcclient/extensions.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conn/rpc/btc/btc_conn_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="4525">
+              <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/transfer/connRpc_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1175">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/db_connect_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1075">
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/address/bitcoin/generate_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="28">
+              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding>
                 <element signature="e#17#45#0" expanded="true" />
               </folding>
@@ -61,50 +70,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conn/restapi/client.go">
+        <entry file="file://$PROJECT_DIR$/conn/rpc/btc/btc_conn.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="1050">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="e#12#134#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conn/restapi/rpcClient.go">
+        <entry file="file://$PROJECT_DIR$/address/bitcoin/generate.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/address/bitcoin/wallets.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1850">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/db_connect.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="27" column="10" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="10" />
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
-                <element signature="e#17#117#0" expanded="true" />
+                <element signature="e#12#92#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conn/restapi/rpcClient_test.go">
+        <entry file="file://$PROJECT_DIR$/../github.com/jinzhu/gorm/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="1100">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="65" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="65" />
-              <folding>
-                <element signature="e#14#119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/rp/crypto/rkey/publickey.go">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -128,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/transfer/connRpc_test.go" />
         <option value="$PROJECT_DIR$/transfer/connRpc.go" />
         <option value="$PROJECT_DIR$/transfer/balance_test.go" />
         <option value="$PROJECT_DIR$/../github.com/go-connect-eth-contract/connecter_test.go" />
@@ -147,7 +159,6 @@
         <option value="$PROJECT_DIR$/mian.go" />
         <option value="$PROJECT_DIR$/db/mysql_connect.go" />
         <option value="$PROJECT_DIR$/db/mysql_config.go" />
-        <option value="$PROJECT_DIR$/test.go" />
         <option value="$PROJECT_DIR$/db/db_test.go" />
         <option value="$PROJECT_DIR$/rpc/btc/btc_conn_test.go" />
         <option value="$PROJECT_DIR$/rpc/btc/api.pb.go" />
@@ -158,27 +169,30 @@
         <option value="$PROJECT_DIR$/rpc/btc/btc_conn.go" />
         <option value="$PROJECT_DIR$/db/db_config.go" />
         <option value="$PROJECT_DIR$/conn/restapi/conn_server.go" />
-        <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/db/db_connect_test.go" />
         <option value="$PROJECT_DIR$/conn/restapi/client_test.go" />
         <option value="$PROJECT_DIR$/conn/restapi/client.go" />
         <option value="$PROJECT_DIR$/address/bitcoin/generate.go" />
-        <option value="$PROJECT_DIR$/address/bitcoin/generate_test.go" />
         <option value="$APPLICATION_CONFIG_DIR$/goland64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/../github.com/btcsuite/rpcclient/chain.go" />
         <option value="$PROJECT_DIR$/../github.com/btcsuite/rpcclient/infrastructure.go" />
         <option value="$PROJECT_DIR$/conn/rpc/btc/btc_conn.go" />
         <option value="$PROJECT_DIR$/conn/restapi/rpcClient.go" />
         <option value="$PROJECT_DIR$/conn/restapi/rpcClient_test.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/transfer/connRpc_test.go" />
+        <option value="$PROJECT_DIR$/test.go" />
+        <option value="$PROJECT_DIR$/withdraw/test.go" />
+        <option value="$PROJECT_DIR$/db/db_connect_test.go" />
         <option value="$PROJECT_DIR$/conn/rpc/btc/btc_conn_test.go" />
+        <option value="$PROJECT_DIR$/address/bitcoin/generate_test.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="400" />
-    <option name="y" value="29" />
-    <option name="width" value="1499" />
-    <option name="height" value="1046" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="19" />
+    <option name="y" value="252" />
+    <option name="width" value="1882" />
+    <option name="height" value="740" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -186,6 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,35 +211,59 @@
             <path>
               <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
               <item name="wallet" type="462c0819:PsiDirectoryNode" />
+              <item name="address" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet" type="462c0819:PsiDirectoryNode" />
+              <item name="address" type="462c0819:PsiDirectoryNode" />
+              <item name="bitcoin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet" type="462c0819:PsiDirectoryNode" />
               <item name="conn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet" type="462c0819:PsiDirectoryNode" />
+              <item name="conn" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet" type="462c0819:PsiDirectoryNode" />
+              <item name="conn" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="btc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github.com/centralize-wallet" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\goSpace\src\wallet\conn" />
+      <recent name="D:\goSpace\src\wallet\conn\restapi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\goSpace\src\wallet\withdraw" />
       <recent name="D:\goSpace\src\wallet\balance" />
       <recent name="D:\goSpace\src\wallet\block\btc" />
       <recent name="D:\goSpace\src\wallet\conn" />
       <recent name="D:\goSpace\src\wallet\rpc\btc" />
-      <recent name="D:\goSpace\src\wallet\rpc" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\goSpace\src\wallet\conn" />
-      <recent name="D:\goSpace\src\wallet\conn\restapi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -239,27 +278,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestBtcConn in wallet/conn/rpc/btc">
-    <configuration name="TestBtcConn in wallet/conn/rpc/btc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestTransaction in wallet/address/bitcoin">
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="wallet" />
-      <working_directory value="$PROJECT_DIR$/conn/rpc/btc" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="wallet/conn/rpc/btc" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/withdraw/test.go" />
+      <package value="wallet" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestBtcConn$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestClient in wallet/conn/restapi" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="Test in wallet/db" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="wallet" />
-      <working_directory value="$PROJECT_DIR$/conn/restapi" />
+      <working_directory value="$PROJECT_DIR$/db" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="wallet/conn/restapi" />
+      <package value="wallet/db" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestClient$" />
+      <pattern value="^Test$" />
       <method v="2" />
     </configuration>
     <configuration name="TestGenerate in wallet/address/bitcoin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -284,70 +321,70 @@
       <pattern value="^TestHttpConn$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestRPC in wallet/conn/restapi" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTransaction in wallet/address/bitcoin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="wallet" />
-      <working_directory value="$PROJECT_DIR$/conn/restapi" />
+      <working_directory value="$PROJECT_DIR$/address/bitcoin" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="wallet/conn/restapi" />
+      <package value="wallet/address/bitcoin" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestRPC$" />
+      <pattern value="^TestTransaction$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestBtcConn in wallet/conn/rpc/btc" />
-        <item itemvalue="Go Test.TestRPC in wallet/conn/restapi" />
-        <item itemvalue="Go Test.TestHttpConn in wallet/conn/rpc/btc" />
+        <item itemvalue="Go Test.TestTransaction in wallet/address/bitcoin" />
         <item itemvalue="Go Test.TestGenerate in wallet/address/bitcoin" />
-        <item itemvalue="Go Test.TestClient in wallet/conn/restapi" />
+        <item itemvalue="Go Test.TestHttpConn in wallet/conn/rpc/btc" />
+        <item itemvalue="Go Test.Test in wallet/db" />
+        <item itemvalue="Go Build.go build test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRPC_in_wallet_conn_restapi - 2018.12.10 at 19h 01m 19s.xml">
-      <configuration name="TestRPC in wallet/conn/restapi" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestGrom_in_wallet_db - 2018.12.14 at 15h 12m 04s.xml">
+      <configuration name="TestGrom in wallet/db" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestHttpConn_in_wallet_conn_rpc_btc - 2018.12.10 at 19h 02m 01s.xml">
+    <history-entry file="Test_in_wallet_db - 2018.12.14 at 17h 24m 09s.xml">
+      <configuration name="Test in wallet/db" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestHttpConn_in_wallet_conn_rpc_btc - 2018.12.16 at 20h 14m 07s.xml">
       <configuration name="TestHttpConn in wallet/conn/rpc/btc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRPC_in_wallet_conn_restapi - 2018.12.10 at 19h 02m 23s.xml">
-      <configuration name="TestRPC in wallet/conn/restapi" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestHttpConn_in_wallet_conn_rpc_btc - 2018.12.16 at 20h 14m 24s.xml">
+      <configuration name="TestHttpConn in wallet/conn/rpc/btc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRPC_in_wallet_conn_restapi - 2018.12.10 at 19h 04m 05s.xml">
-      <configuration name="TestRPC in wallet/conn/restapi" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestHttpConn_in_wallet_conn_rpc_btc - 2018.12.16 at 20h 15m 07s.xml">
+      <configuration name="TestHttpConn in wallet/conn/rpc/btc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRPC_in_wallet_conn_restapi - 2018.12.10 at 19h 04m 32s.xml">
-      <configuration name="TestRPC in wallet/conn/restapi" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestHttpConn_in_wallet_conn_rpc_btc - 2018.12.17 at 12h 45m 36s.xml">
+      <configuration name="TestHttpConn in wallet/conn/rpc/btc" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRPC_in_wallet_conn_restapi - 2018.12.10 at 19h 59m 44s.xml">
-      <configuration name="TestRPC in wallet/conn/restapi" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestGenerate_in_wallet_address_bitcoin - 2018.12.17 at 12h 45m 52s.xml">
+      <configuration name="TestGenerate in wallet/address/bitcoin" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBtcConn_in_wallet_conn_rpc_btc - 2018.12.12 at 11h 33m 37s.xml">
-      <configuration name="TestBtcConn in wallet/conn/rpc/btc" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestGenerate_in_wallet_address_bitcoin - 2018.12.17 at 12h 47m 10s.xml">
+      <configuration name="TestGenerate in wallet/address/bitcoin" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBtcConn_in_wallet_conn_rpc_btc - 2018.12.12 at 11h 34m 09s.xml">
-      <configuration name="TestBtcConn in wallet/conn/rpc/btc" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestGenerate_in_wallet_address_bitcoin - 2018.12.17 at 13h 33m 30s.xml">
+      <configuration name="TestGenerate in wallet/address/bitcoin" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBtcConn_in_wallet_conn_rpc_btc - 2018.12.12 at 11h 34m 40s.xml">
-      <configuration name="TestBtcConn in wallet/conn/rpc/btc" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestBtcConn_in_wallet_conn_rpc_btc - 2018.12.12 at 11h 34m 47s.xml">
-      <configuration name="TestBtcConn in wallet/conn/rpc/btc" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestTransaction_in_wallet_address_bitcoin - 2018.12.19 at 11h 44m 53s.xml">
+      <configuration name="TestTransaction in wallet/address/bitcoin" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11513859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.58848614" visible="true" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7076167" visible="true" weight="0.3109426" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4979525" weight="0.31527627" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7076167" visible="true" weight="0.3618635" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4979525" weight="0.3143483" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -378,55 +415,10 @@
           <line>24</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/transfer/balance_test.go</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/transfer/balance_test.go</url>
-          <line>20</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../github.com/go-connect-eth-contract/super_coin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2150">
-          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/go-connect-eth-contract/connecter_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transfer/balance_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Go/src/context/context.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5000">
-          <caret line="206" selection-start-line="206" selection-end-line="206" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Go/src/math/big/float.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39200">
-          <caret line="1572" column="16" selection-start-line="1572" selection-start-column="16" selection-end-line="1572" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/ethereum/go-ethereum/accounts/abi/bind/auth.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
@@ -439,13 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
           <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transfer/connRpc_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -477,7 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.go" />
     <entry file="file://F:/Go/src/testing/testing.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
@@ -545,34 +529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/address/bitcoin/wallets.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/db_config.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/balance/balance.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#17#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/db_connect_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -635,48 +595,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/btcsuite/rpcclient/extensions.go">
+    <entry file="file://$PROJECT_DIR$/conn/rpcclient/doc.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conn/restapi/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+        <state relative-caret-position="350">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/address/bitcoin/generate.go">
+    <entry file="file://$PROJECT_DIR$/conn/restapi/rpcClient.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/address/bitcoin/generate_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="450">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="10" />
           <folding>
-            <element signature="e#17#45#0" expanded="true" />
+            <element signature="e#17#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conn/rpc/btc/btc_conn.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#12#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/transfer/token.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/db_connect.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/rp/crypto/rkey/publickey.go">
+    <entry file="file://$PROJECT_DIR$/transfer/connRpc.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/conn/restapi/rpcClient_test.go">
@@ -688,38 +630,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="65" />
+        <state relative-caret-position="475">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
             <element signature="e#14#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conn/restapi/client.go">
+    <entry file="file://$PROJECT_DIR$/balance/balance.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conn/restapi/rpcClient.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="600">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding>
-            <element signature="e#17#117#0" expanded="true" />
+            <element signature="e#17#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conn/rpcclient/doc.go">
+    <entry file="file://$PROJECT_DIR$/conn/rpcclient/net.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://D:/rp/crypto/rkey/publickey.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transfer/balance_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/withdraw/test.go" />
     <entry file="file://$PROJECT_DIR$/conn/rpc/btc/btc_conn_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="200">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#13#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/btcsuite/rpcclient/extensions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4525">
+          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transfer/connRpc_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/db_connect_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conn/rpc/btc/btc_conn.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#12#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/address/bitcoin/generate.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/address/bitcoin/wallets.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1850">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/db_connect.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#12#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/jinzhu/gorm/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/address/bitcoin/generate_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding>
+            <element signature="e#17#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

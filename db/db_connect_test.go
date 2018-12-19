@@ -2,6 +2,7 @@ package db
 
 import (
 	"fmt"
+	"github.com/cointux/server/pacautils/src/github.com/jinzhu/gorm"
 	"log"
 	"testing"
 	"time"
@@ -34,4 +35,17 @@ func TestQuery(t *testing.T) {
 		fmt.Println("row", info.ID, 1111, info.CurrencyId)
 	}
 
+}
+
+func TestGrom(t *testing.T) {
+	db, err := gorm.Open("mysql", "root:123456@tcp(www.pacasys.com:3306)/gotest?charset=utf8&parseTime=True")
+	defer db.Close()
+	if err != nil {
+		log.Panic("Connect fail !")
+	}
+	log.Print("Connect Success !")
+}
+
+func Test(t *testing.T) {
+	fmt.Print(time.Now().Unix())
 }

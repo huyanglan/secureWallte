@@ -55,3 +55,5 @@ func TestTransfer(t *testing.T) {
 	//txs, err := token.Transfer(auth, common.HexToAddress(toAddress), convertAmount)
 	//fmt.Println("Transfer", txs)
 }
+
+
