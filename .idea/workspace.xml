@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/address/bitcoin/generate_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="28">
-              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding>
                 <element signature="e#17#45#0" expanded="true" />
               </folding>
@@ -189,10 +189,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="19" />
-    <option name="y" value="252" />
+    <option name="x" value="428" />
+    <option name="y" value="51" />
     <option name="width" value="1882" />
-    <option name="height" value="740" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -205,33 +205,33 @@
         <subPane>
           <expand>
             <path>
-              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="wallet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="wallet" type="462c0819:PsiDirectoryNode" />
               <item name="address" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="wallet" type="462c0819:PsiDirectoryNode" />
               <item name="address" type="462c0819:PsiDirectoryNode" />
               <item name="bitcoin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="wallet" type="462c0819:PsiDirectoryNode" />
               <item name="conn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="wallet" type="462c0819:PsiDirectoryNode" />
               <item name="conn" type="462c0819:PsiDirectoryNode" />
               <item name="rpc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wallet_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="wallet" type="462c0819:PsiDirectoryNode" />
               <item name="conn" type="462c0819:PsiDirectoryNode" />
               <item name="rpc" type="462c0819:PsiDirectoryNode" />
@@ -279,8 +279,18 @@
     </option>
   </component>
   <component name="RunManager" selected="Go Test.TestTransaction in wallet/address/bitcoin">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="wallet_test" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="wallet" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="wallet" />
+      <module name="wallet_test" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/withdraw/test.go" />
@@ -289,7 +299,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Test in wallet/db" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="wallet" />
+      <module name="wallet_test" />
       <working_directory value="$PROJECT_DIR$/db" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
@@ -300,7 +310,7 @@
       <method v="2" />
     </configuration>
     <configuration name="TestGenerate in wallet/address/bitcoin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="wallet" />
+      <module name="wallet_test" />
       <working_directory value="$PROJECT_DIR$/address/bitcoin" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
@@ -311,7 +321,7 @@
       <method v="2" />
     </configuration>
     <configuration name="TestHttpConn in wallet/conn/rpc/btc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="wallet" />
+      <module name="wallet_test" />
       <working_directory value="$PROJECT_DIR$/conn/rpc/btc" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
@@ -322,7 +332,7 @@
       <method v="2" />
     </configuration>
     <configuration name="TestTransaction in wallet/address/bitcoin" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="wallet" />
+      <module name="wallet_test" />
       <working_directory value="$PROJECT_DIR$/address/bitcoin" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
@@ -330,6 +340,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestTransaction$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="wallet_test" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="wallet" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -378,12 +399,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11513859" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11513859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.58848614" visible="true" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7076167" visible="true" weight="0.3618635" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7076167" weight="0.3618635" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4979525" weight="0.3143483" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -737,7 +758,7 @@
     <entry file="file://$PROJECT_DIR$/address/bitcoin/generate_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding>
             <element signature="e#17#45#0" expanded="true" />
           </folding>
