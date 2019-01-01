@@ -23,6 +23,7 @@ func BatchGenerateAddress() {
 
 func NewBitcoinWalllet() *BitcoinWallet {
 	privateKey, publicKey := newKeyPair()
+	log.Println("-------Key----", privateKey, "-------",publicKey)
 	wallet := BitcoinWallet{privateKey, publicKey}
 	return &wallet
 }
@@ -71,6 +72,7 @@ func newKeyPair() (ecdsa.PrivateKey, []byte) {
 	// ECC generate private key
 	curve := elliptic.P256()
 	private, err := ecdsa.GenerateKey(curve, rand.Reader)
+	log.Println("--------", private)
 	if err != nil {
 		log.Panic(err)
 	}

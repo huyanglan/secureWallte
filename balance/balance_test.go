@@ -1,4 +1,4 @@
-package transfer
+package balance
 
 import (
 	"fmt"
@@ -11,7 +11,7 @@ func TestGetBalance(t *testing.T) {
 }
 
 func getBalance(address string) {
-	client, err := rpc.Dial("http://localhost:8545")
+	client, err := rpc.Dial("http://localhost:8445")
 	if err != nil {
 		fmt.Println("rpc.Dial err", err)
 		return

@@ -57,3 +57,7 @@ func TestTransaction(t *testing.T) {
 
 	fmt.Printf("tx sent: %s", signedTx.Hash().Hex())
 }
+
+func BenchmarkMerge(b *testing.B) {
+
+}
